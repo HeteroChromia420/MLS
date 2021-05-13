@@ -12,3 +12,5 @@ sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub
 sudo flatpak install adriconf
 sudo apt-fast install -y openvpn dialog python3-pip python3-setuptools -y --no-install-recommends --no-install-suggests
 sudo pip3 install protonvpn-cli
+sudo cp 50-mouse-acceleration.conf /usr/share/X11/xorg.conf.d/
+cp .mpdconf ~/
