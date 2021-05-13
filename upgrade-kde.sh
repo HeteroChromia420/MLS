@@ -1,5 +1,5 @@
 #! /bin/bash
 
 clear
-sudo apt purge --auto-remove network-manager-gnome xfce4-screenshooter redshift-gtk caffeine xscreensaver lxqt-* lximage-qt lxqt-powermanagement lxqt-sudo pavucontrol-qt qps xfce4-notifyd xfwm4 package-update-indicator plank featherpad -y
+sudo apt purge --auto-remove network-manager-gnome xfce4-screenshooter redshift-gtk caffeine xscreensaver lxqt-* lximage-qt lxqt-powermanagement lxqt-sudo pavucontrol-qt qps xfce4-notifyd xfwm4 package-update-indicator plank featherpad qt5-style-kvantum xscreensaver-gl -y
 sudo apt-fast install smplayer cantata mpd mpv youtube-dl synaptic eject bash-completion gvfs* qt5-style-plugins plasma-nm kde-spectacle xinit pulseaudio alsa-utils ark gwenview kate xserver-xorg xdg-user-dirs wpasupplicant gimp xserver-xorg-video-intel firmware-amd-graphics fonts-noto* redshift-gtk geoclue-2.0 arc-theme kdeconnect papirus-icon-theme breeze-cursor-theme steam flatpak desktop-base kde-config-gtk-style kde-config-screenlocker kde-config-sddm khotkeys kinfocenter kmenuedit kscreen ksysguard kwin-x11 powerdevil systemsettings plasma-discover kde-plasma-desktop plasma-pa kwalletmanager qml-module-org-kde-newstuff network-manager plasma-nm latte-dock qml-module-org-kde-activities kactivities-bin kio-extras kwrite --no-install-recommends --no-install-suggests -y
