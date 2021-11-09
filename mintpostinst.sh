@@ -10,4 +10,5 @@ sudo cp 50-mouse-acceleration.conf /usr/share/X11/xorg.conf.d/
 sudo cp 69-sysctl-performance.conf /etc/sysctl.d/
 xfconf-query -c xfce4-session -np '/shutdown/ShowSwitchUser' -t 'bool' -s 'false'
 rm -r -v ~/.cache/sessions/*
+sudo mkdir /etc/xdg/xfce4/kiosk
 sudo cp kioskrc /etc/xdg/xfce4/kiosk/
