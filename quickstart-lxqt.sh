@@ -16,4 +16,5 @@ git clone https://github.com/numixproject/numix-folders
 sudo apt update
 sudo cp -r lxqt-arc-dark-theme/arc-dark/ /usr/share/lxqt/themes/
 sudo cp 50-mouse-acceleration.conf /usr/share/X11/xorg.conf.d/
+sudo cp 69-sysctl-performance.conf /etc/sysctl.d/
 cp .mpdconf ~/
