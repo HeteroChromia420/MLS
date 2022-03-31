@@ -10,6 +10,7 @@ xdg-user-dirs-update
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 sudo flatpak install adriconf
 sudo cp 50-mouse-acceleration.conf /usr/share/X11/xorg.conf.d/
+sudo cp 69-sysctl-performance.conf /etc/sysctl.d/
 cp .mpdconf ~/
 xfconf-query -c xfce4-session -np '/shutdown/ShowSwitchUser' -t 'bool' -s 'false'
 rm -r -v ~/.cache/sessions/*
