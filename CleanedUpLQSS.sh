@@ -11,7 +11,7 @@ updateSystem(){
 }
 
 installPackages(){
-    sudo apt install lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings smplayer smplayer-themes cantata mpd mpv youtube-dl synaptic eject bash-completion gvfs* qt5-style-plugins network-manager nm-tray kde-spectacle xinit pulseaudio alsa-utils ark xserver-xorg xdg-user-dirs wpasupplicant xserver-xorg-video-intel firmware-amd-graphics fonts-noto* arc-theme papirus-icon-theme breeze-cursor-theme flatpak desktop-base caffeine xscreensaver lxqt-core kwrite lximage-qt lxqt-sudo pavucontrol-qt qps lm-sensors linux-cpupower tlp powertop openbox obconf-qt kcalc package-update-indicator git lxqt-powermanagement --no-install-recommends --no-install-suggests -y | tee -a lqss-setup.log
+    sudo apt install falkon konsole lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings smplayer smplayer-themes cantata mpd mpv youtube-dl synaptic eject bash-completion gvfs* qt5-style-plugins network-manager nm-tray kde-spectacle xinit pulseaudio alsa-utils ark xserver-xorg xdg-user-dirs wpasupplicant xserver-xorg-video-intel firmware-amd-graphics fonts-noto* arc-theme papirus-icon-theme breeze-cursor-theme flatpak desktop-base caffeine xscreensaver lxqt-core kwrite lximage-qt lxqt-sudo pavucontrol-qt qps lm-sensors linux-cpupower tlp powertop openbox obconf-qt kcalc package-update-indicator git lxqt-powermanagement --no-install-recommends --no-install-suggests -y | tee -a lqss-setup.log
     sudo apt install --instal-recommends plasma-discover plasma-discover-backend-flatpak flatpak -y | tee -a lqss-setup.log
     #And Purge unwanted packages
     sudo apt purge --auto-remove unattended-upgrades snapd plasma-discover-backend-snap -y | tee -a lqss-setup.log
