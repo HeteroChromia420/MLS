@@ -20,5 +20,11 @@ setupFlatpak(){
     clearScreen
 }
 
-updateSystem && installPackages && setupFlatpak && echo "All compents ran successfully!" || echo "One or More Components failed to run."
+setupExtra(){
+    git clone https://gitlab.com/isseigx/lxqt-arc-dark-theme
+    sudo cp -r lxqt-arc-dark-theme/arc-dark/ /usr/share/lxqt/themes/
+    clearScreen
+}
+
+updateSystem && installPackages && setupFlatpak && setupExtra && echo "All compents ran successfully!" || echo "One or More Components failed to run."
 read -n 1 -s -r -p "Press any key to exit..."
