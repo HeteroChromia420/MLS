@@ -1,0 +1,3 @@
+#! /bin/bash
+sudo apt install libdrm-dev gcc cmake libqt5svg5 qml-module-qtquick-controls qml-module-qtquick-controls2 qml-module-qtquick-controls qml-module-qtquick-layouts qml-module-qtcharts qml-module-qt-labs-platform libkf5archive5 extra-cmake-modules libqt5quickcontrols2-5 qtdeclarative5-dev libqt5charts5-dev libqt5svg5-dev qttools5-dev qttools5-dev-tools libkf5auth-dev libkf5archive-dev libbotan-2-dev libbotan-2-doc python3-botan qtdeclarative5-dev libqt5charts5-dev libqt5svg5-dev sysvinit-utils hwdata mesa-utils util-linux qt5-qmake libquazip5-dev g++ qtbase5-dev pkg-config libdbus-1-dev libpolkit-gobject-1-dev
+read -n 1 -s -r -p "Press any key to exit..."
