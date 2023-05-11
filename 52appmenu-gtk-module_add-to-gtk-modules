@@ -1,0 +1,9 @@
+# This file is sourced by Xsession(5), not executed.
+
+if [ -z "$GTK_MODULES" ] ; then
+   GTK_MODULES="appmenu-gtk-module"
+else
+   GTK_MODULES="$GTK_Modules:appmenu-gtk-module"
+fi
+
+export GTK_MODULES
