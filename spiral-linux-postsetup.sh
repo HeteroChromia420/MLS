@@ -8,3 +8,4 @@ sudo flatpak remote-delete flathub --system
 flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 sudo apt dist-upgrade --auto-remove
 flatpak update
+wget -qO- https://git.io/papirus-folders-install | sh
