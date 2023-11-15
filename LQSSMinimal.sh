@@ -27,6 +27,9 @@ setupExtra(){
     git clone https://gitlab.com/isseigx/lxqt-arc-dark-theme | tee -a lqss-setup.log
     sudo cp -r lxqt-arc-dark-theme/arc-dark/ /usr/share/lxqt/themes/ | tee -a lqss-setup.log
     clearScreen
+    git clone https://github.com/dglava/arc-openbox | tee -a obqss-setup.log
+    cp -r arc-openbox/* ~/.themes | tee -a obqss-setup.log
+    rm -rf arc-openbox | tee -a obqss-setup.log
 }
 
 updateSystem && installPackages && setupFlatpak && setupExtra && echo "All compents ran successfully. Feel Free to check lqss-setup.log." || echo "One or More Components failed to run. Please check lqss-setup.log."
