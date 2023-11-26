@@ -11,7 +11,7 @@ updateSystem(){
 }
 
 installPackages(){
-    sudo apt install libnotify4 pulseaudio pavucontrol-qt xcompmgr tumbler ffmpegthumbnailer slim synaptic eject bash-completion gvfs* qt5-style-plugins network-manager nm-tray kde-spectacle xinit alsa-utils engrampa xserver-xorg xdg-user-dirs wpasupplicant fonts-noto* arc-theme papirus-icon-theme breeze-cursor-theme flatpak desktop-base xscreensaver lxqt-core featherpad lximage-qt lxqt-sudo qps openbox obconf-qt kcalc package-update-indicator git lxqt-powermanagement --no-install-recommends --no-install-suggests -y | tee -a lqss-setup.log
+    sudo apt install libnotify4 pipewire pipewire-pulse wireplumber pavucontrol-qt xcompmgr tumbler ffmpegthumbnailer slim synaptic eject bash-completion gvfs* qt5-style-plugins network-manager nm-tray kde-spectacle xinit alsa-utils engrampa xserver-xorg xdg-user-dirs wpasupplicant fonts-noto* arc-theme papirus-icon-theme breeze-cursor-theme flatpak desktop-base xscreensaver lxqt-core featherpad lximage-qt lxqt-sudo qps openbox obconf-qt kcalc package-update-indicator git lxqt-powermanagement --no-install-recommends --no-install-suggests -y | tee -a lqss-setup.log
     sudo apt install --install-recommends plasma-discover plasma-discover-backend-flatpak flatpak -y | tee -a lqss-setup.log
     #And Purge unwanted packages
     sudo apt purge --auto-remove unattended-upgrades snapd plasma-discover-backend-snap -y | tee -a lqss-setup.log
